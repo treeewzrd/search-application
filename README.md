@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e2f9e0e-0000-0000-0000-000000000000/deploy-status)](https://search-applicationn.netlify.app/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Vite](https://img.shields.io/badge/built%20with-vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/react-18.x-61dafb.svg?logo=react&logoColor=white)](https://react.dev/)
+
+**Live Demo:**  
+👉 [https://search-applicationn.netlify.app/](https://search-applicationn.netlify.app/)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -30,4 +38,5 @@ export default {
 * Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
 
 ---
+
 © 2025 Timothy McGrath
