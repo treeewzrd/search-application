@@ -1,25 +1,29 @@
 # GitHub Candidate Search
 
+![Status](https://img.shields.io/badge/status-coursework-blue)
 
-**Status: Coursework / learning project.**
+Coursework application for browsing public GitHub profiles and saving candidates in the browser.
 
-A React and TypeScript coursework application that searches public GitHub user profiles.
-
-Preserved as a learning reference; production deployment and current compatibility have not been verified.
-
-## Stack
-
-React, TypeScript, and Vite.
+**Built with:** React, TypeScript, Vite.
 
 ## Run locally
 
+Requires Node.js/npm. From the repository root:
+
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-The application requests public GitHub profiles without a personal access token. Unauthenticated API rate limits apply. Do not put a personal access token in a `VITE_*` variable: browser-delivered code cannot keep it private.
+Open the address printed by Vite.
 
-## Scope
+## Checks
 
-Coursework exploring API requests, profile browsing, and saved candidates. No current deployment status is claimed.
+```bash
+npm run build
+npm run lint
+```
+
+Requests now use the public GitHub API without a personal token; unauthenticated rate limits apply. Never put a personal access token in a `VITE_*` variable: browser code cannot keep it private.
+
+Setup instructions were checked against source; builds and application behavior have not been rerun during this cleanup.
