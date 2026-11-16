@@ -1,42 +1,25 @@
-# React + TypeScript + Vite
+# GitHub Candidate Search
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1e2f9e0e-0000-0000-0000-000000000000/deploy-status)](https://search-applicationn.netlify.app/)
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Vite](https://img.shields.io/badge/built%20with-vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
-[![React](https://img.shields.io/badge/react-18.x-61dafb.svg?logo=react&logoColor=white)](https://react.dev/)
 
-**Live Demo:**  
-👉 [https://search-applicationn.netlify.app/](https://search-applicationn.netlify.app/)
+**Status: Coursework / learning project.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React and TypeScript coursework application that searches public GitHub user profiles.
 
-Currently, two official plugins are available:
+Preserved as a learning reference; production deployment and current compatibility have not been verified.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
 
-## Expanding the ESLint configuration
+React, TypeScript, and Vite.
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Run locally
 
-* Configure the top-level `parserOptions` property as follows:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+npm install
+npm run dev
 ```
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+The application requests public GitHub profiles without a personal access token. Unauthenticated API rate limits apply. Do not put a personal access token in a `VITE_*` variable: browser-delivered code cannot keep it private.
 
----
+## Scope
 
-© 2025 Timothy McGrath
+Coursework exploring API requests, profile browsing, and saved candidates. No current deployment status is claimed.
