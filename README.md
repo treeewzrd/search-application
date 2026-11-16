@@ -6,6 +6,17 @@ Coursework application for browsing public GitHub profiles and saving candidates
 
 **Built with:** React, TypeScript, Vite.
 
+## What I built
+
+- Built candidate browsing and saved-candidate screens with React and TypeScript.
+- Connected GitHub profile requests to reusable display components and navigation.
+
+## Explore the source
+
+- [src/pages/CandidateSearch.tsx](src/pages/CandidateSearch.tsx) — Candidate browsing.
+- [src/api/API.tsx](src/api/API.tsx) — GitHub API requests.
+- [src/components/SavedCandidateList.tsx](src/components/SavedCandidateList.tsx) — Saved-candidate interface.
+
 ## Run locally
 
 Requires Node.js/npm. From the repository root:
