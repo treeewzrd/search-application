@@ -4,15 +4,12 @@ const searchGithub = async () => {
     const response = await fetch(
       `https://api.github.com/users?since=${start}`
     );
-    // console.log('Response:', response);
     const data = await response.json();
     if (!response.ok) {
       throw new Error('invalid API response, check the network tab');
     }
-    // console.log('Data:', data);
     return data;
   } catch (err) {
-    // console.log('an error occurred', err);
     return [];
   }
 };
@@ -26,7 +23,6 @@ const searchGithubUser = async (username: string) => {
     }
     return data;
   } catch (err) {
-    // console.log('an error occurred', err);
     return {};
   }
 };
